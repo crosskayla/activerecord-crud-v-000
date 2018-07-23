@@ -82,7 +82,8 @@ end
 
 def can_destroy_a_single_item
   Movie.create(title: "That One Where the Guy Kicks Another Guy Once")
-  Movie.find_by(title: "That One Where the Guy Kicks Another Guy Once")
+  m = Movie.find_by(title: "That One Where the Guy Kicks Another Guy Once")
+  m.destryor
 end
 
 def can_destroy_all_items_at_once
