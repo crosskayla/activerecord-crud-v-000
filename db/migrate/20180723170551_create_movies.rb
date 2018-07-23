@@ -4,6 +4,6 @@ class CreateMovies < ActiveRecord::Migration
       t.string :title
       t.integer :release_date
       t.string :director
-      t.
+      t.string :lead
   end
 end
